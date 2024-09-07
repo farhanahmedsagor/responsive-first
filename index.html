@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .top-area{
+            background-color: #f1f1f1;
+            padding: 15px;
+            font-size: 15px;
+        }
+        .top-area h1{
+            font-size: 40px;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .menuitem{
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #f1f1f1;
+        }
+        .middle-area{
+            margin-top: 0px;
+        }
+        .menu-explore{
+            width: 60%;
+            float: left;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        .Ext-option{
+            width: 20%;
+            float: left;
+            background-color: #f08b8b;
+            margin-top: 7px;
+            padding: 10px 15px;
+        }
+        #farimg{
+            width: 100%;
+            margin-top: 2px;
+        }
+
+
+        @media only screen and (max-width:800px) {
+            /* for tablets */
+            .middle-area{
+                width: 100%;
+                padding: 0;
+            }
+            .Ext-option{
+                width: 100%;
+            }
+
+        }
+        @media only screen and (max-width:500px){
+            .menu, .menu-explore, .Ext-option{
+                width: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="top-area">
+        <h1>Sagor ahmed farhan</h1>
+        <h2>Resize the browser window</h2>
+    </div>
+    <div class="middle-area">
+        <div class="menu">
+            <div class="menuitem">Home</div>
+            <div class="menuitem">About</div>
+            <div class="menuitem">Gallery</div>
+            <div class="menuitem">Contact us</div>
+        </div>
+        <div class="menu-explore">
+            <h2 style="border-bottom: 1px solid #f1f1f1; width: 30%;">About me</h2>
+            <p>Assalamu-alaikum! This is Farhan .I from Bangladesh Barishal to be more exact.Today i'd like to talk about a Become web Developer....</p>
+            <p>I'm sorry to say that's the problem it's unexpected error.</p><a style="text-decoration: none;font-size: 20px;border: 1px solid saddlebrown;" target="_blank" href="
+            https://m.me/sagorahmedfarhan11">learn more</a>
+            <img id="farimg" src="https://media.licdn.com/dms/image/C4D22AQHYM5SDyoE3_w/feedshare-shrink_800/0/1657007871177?e=2147483647&v=beta&t=wcGhaDX4XTmcmvBp_q4KXvlEA0wiS63rLxy1fYb-WC0" alt="farhan">
+        </div>
+        <div class="Ext-option">
+            <h1>What?</h1>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet....... <a href="https://m.me/sagorahmedfarhan11">learn more</a></p>
+            <h1>Where?</h1>
+            <p>It's depends on you. Do you want to know more? <a href="https://m.me/sagorahmedfarhan11">learn more</a></p>
+            <h1>Price?</h1>
+            <p>The ---- is free!</p>
+        </div>
+        
+    </div>
+    <div style="text-align: center;float: left;background-color: #eea7a7ac; width: 100%;" class="footer">
+        <p>This web page is a part of a demonstration of fluid web design made by farhan ahmed. Resize the browser window to see the content respond to the resizing.</p>
+    </div>
+
+    
+</body>
+</html>
